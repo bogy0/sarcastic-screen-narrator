@@ -83,10 +83,10 @@ def main():
         base64_image = encode_image(image_path)
 
         # analyze posture
-        print("👀 David is watching...")
+        print("👀 Stanley is watching...")
         analysis = analyze_image(base64_image, script=script)
 
-        print("🎙️ David says:")
+        print("🎙️ Stanley says:")
         print(analysis)
 
         play_audio(analysis)
