@@ -1,7 +1,7 @@
 
 
 # sarcastic narrator
-Sarcastic David Attenborough narrates what you are doing based on your screen
+Sarcastic Stanley narrates what you are doing based on your screen
 
 ### Demo
 https://github.com/bogy0/sarcastic-screen-narrator/assets/5119480/d8849b42-7f95-4b44-8f02-875952335edc
@@ -45,4 +45,9 @@ In one terminal. In the other, run the narrator:
 ```bash
 python narrator.py
 ```
+
+### Voice recommendation
+To match the Stanley Parable narrator voice i used Elevenlabs's David voice from the Voice Library:
+https://elevenlabs.io/voice-library
+Search for David and select the `Old British Male` variant with `Deep` and `Narrative & story` labels.
 
